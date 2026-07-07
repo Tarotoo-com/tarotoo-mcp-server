@@ -484,13 +484,7 @@
     "element": "Air",
     "astrology": "Aquarius",
     "yes_no": "yes",
-    "keywords_upright": [
-      "hope",
-      "renewal",
-      "healing",
-      "inspiration",
-      "faith"
-    ],
+    "keywords_upright": ["hope", "renewal", "healing", "inspiration", "faith"],
     "keywords_reversed": [
       "discouragement",
       "lost faith",
@@ -540,13 +534,7 @@
     "element": "Fire",
     "astrology": "Sun",
     "yes_no": "yes",
-    "keywords_upright": [
-      "joy",
-      "success",
-      "vitality",
-      "clarity",
-      "confidence"
-    ],
+    "keywords_upright": ["joy", "success", "vitality", "clarity", "confidence"],
     "keywords_reversed": [
       "dimmed joy",
       "temporary setbacks",
