@@ -1,0 +1,38 @@
+{
+  "name": "tarotoo-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server exposing the Tarotoo tarot card meanings dataset (78 cards, Rider-Waite-Smith) to AI assistants",
+  "type": "module",
+  "bin": {
+    "tarotoo-mcp-server": "server.js"
+  },
+  "files": [
+    "server.js",
+    "data/cards.json"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "tarot",
+    "tarot-cards",
+    "dataset",
+    "tarotoo"
+  ],
+  "author": "Tarotoo (https://tarotoo.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tarotoo-com/tarotoo-mcp-server.git"
+  },
+  "homepage": "https://tarotoo.com",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.4.3"
+  }
+}
