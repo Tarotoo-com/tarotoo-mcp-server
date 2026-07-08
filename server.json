@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.tarotoo-com/tarotoo-mcp-server",
+  "title": "Tarotoo Tarot",
+  "description": "Query all 78 tarot card meanings (Rider-Waite-Smith): upright/reversed, love, career, mood, spiritual, yes/no, search, and random draws.",
+  "websiteUrl": "https://tarotoo.com",
+  "repository": {
+    "url": "https://github.com/Tarotoo-com/tarotoo-mcp-server",
+    "source": "github"
+  },
+  "version": "1.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "tarotoo-mcp-server",
+      "version": "1.1.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
