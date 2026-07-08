@@ -38,7 +38,7 @@ function errorText(message) {
   return { content: [{ type: 'text', text: message }], isError: true };
 }
 
-const server = new McpServer({ name: 'tarotoo-tarot', version: '1.1.0' });
+const server = new McpServer({ name: 'tarotoo-tarot', version: '1.2.0' });
 
 server.registerTool(
   'get_card_meaning',
