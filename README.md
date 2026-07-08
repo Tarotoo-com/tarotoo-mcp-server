@@ -1,6 +1,6 @@
 # Tarotoo MCP Server
 
-A [Model Context Protocol](https://modelcontextprotocol.io) server that gives AI assistants (Claude, ChatGPT, Cursor, and any other MCP client) live access to the [Tarotoo tarot card meanings dataset](https://github.com/Tarotoo-com/tarotoo-tarot-dataset) — all 78 cards in the Rider–Waite–Smith tradition, with upright/reversed meanings, keywords, love and career contexts, and yes/no values.
+A [Model Context Protocol](https://modelcontextprotocol.io) server that gives AI assistants (Claude, ChatGPT, Cursor, and any other MCP client) live access to the [Tarotoo tarot card meanings dataset](https://github.com/Tarotoo-com/tarotoo-tarot-dataset) — all 78 cards in the Rider–Waite–Smith tradition, with upright/reversed meanings, keywords, love, career, mood, and spiritual contexts, and yes/no values.
 
 Published by [Tarotoo](https://tarotoo.com) as part of its AI transparency initiative: these are the same card meanings that ground the AI readings on Tarotoo.com.
 

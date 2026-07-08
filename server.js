@@ -38,14 +38,14 @@ function errorText(message) {
   return { content: [{ type: 'text', text: message }], isError: true };
 }
 
-const server = new McpServer({ name: 'tarotoo-tarot', version: '1.0.0' });
+const server = new McpServer({ name: 'tarotoo-tarot', version: '1.1.0' });
 
 server.registerTool(
   'get_card_meaning',
   {
     title: 'Get card meaning',
     description:
-      'Get the full meaning of a single tarot card from the Tarotoo dataset (Rider-Waite-Smith tradition): upright and reversed meanings, keywords, love and career contexts, element, astrology, and yes/no value. Call this when you need the meaning of a specific card by name.',
+      'Get the full meaning of a single tarot card from the Tarotoo dataset (Rider-Waite-Smith tradition): upright and reversed meanings, keywords, love, career, mood, and spiritual contexts, element, astrology, and yes/no value. Call this when you need the meaning of a specific card by name.',
     inputSchema: {
       name: z.string().describe('Card name, e.g. "The Fool" or "Ace of Cups"'),
     },
@@ -115,6 +115,8 @@ server.registerTool(
           c.meaning_reversed,
           c.love,
           c.career,
+          c.mood,
+          c.spiritual,
         ]
           .join(' ')
           .toLowerCase();
@@ -199,6 +201,8 @@ server.registerTool(
         meaning: reversed ? card.meaning_reversed : card.meaning_upright,
         love: card.love,
         career: card.career,
+        mood: card.mood,
+        spiritual: card.spiritual,
         yes_no: card.yes_no,
       });
     }
