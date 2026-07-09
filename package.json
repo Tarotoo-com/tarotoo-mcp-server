@@ -36,5 +36,8 @@
     "@modelcontextprotocol/sdk": "^1.29.0",
     "zod": "^4.4.3"
   },
-  "mcpName": "io.github.Tarotoo-com/tarotoo-mcp-server"
+  "mcpName": "io.github.Tarotoo-com/tarotoo-mcp-server",
+  "bugs": {
+    "url": "https://github.com/Tarotoo-com/tarotoo-mcp-server/issues"
+  }
 }
