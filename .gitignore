@@ -1,1 +1,23 @@
+# OS junk
+.DS_Store
+._*
+Thumbs.db
+
+# Secrets & credentials
+.env
+.env.*
+*.pem
+kaggle.json
+.pypirc
+*token*
+!*token*.md
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Node
 node_modules/
