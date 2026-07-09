@@ -46,7 +46,7 @@ The server communicates over stdio.
 
 ## Dataset
 
-The embedded `data/cards.json` comes from [tarotoo-tarot-dataset](https://github.com/Tarotoo-com/tarotoo-tarot-dataset) (CC BY 4.0), also available on Hugging Face and Kaggle. Interpretations are grounded in A. E. Waite's _The Pictorial Key to the Tarot_ (1911, public domain), written in Tarotoo's editorial voice.
+The embedded `data/cards.json` comes from [tarotoo-tarot-dataset](https://github.com/Tarotoo-com/tarotoo-tarot-dataset) (CC BY 4.0), also available on [Hugging Face](https://huggingface.co/datasets/Tarotoo/tarotoo-tarot-card-meanings). Interpretations are grounded in A. E. Waite's _The Pictorial Key to the Tarot_ (1911, public domain), written in Tarotoo's editorial voice.
 
 ## License
 
