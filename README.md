@@ -46,11 +46,11 @@ The server communicates over stdio.
 
 ## Dataset
 
-The embedded `data/cards.json` comes from [tarotoo-tarot-dataset](https://github.com/Tarotoo-com/tarotoo-tarot-dataset) (CC BY 4.0), also available on [Hugging Face](https://huggingface.co/datasets/Tarotoo/tarotoo-tarot-card-meanings) [Kaggle](https://www.kaggle.com/datasets/tarotoo/tarotoo-tarot-card-meanings), [npm](https://www.npmjs.com/package/tarotoo-tarot), and [PyPI](https://pypi.org/project/tarotoo-tarot/). Interpretations are grounded in A. E. Waite's _The Pictorial Key to the Tarot_ (1911, public domain), written in Tarotoo's editorial voice.
+The embedded `data/cards.json` comes from [tarotoo-tarot-dataset](https://github.com/Tarotoo-com/tarotoo-tarot-dataset) (MIT-licensed), also available on [Hugging Face](https://huggingface.co/datasets/Tarotoo/tarotoo-tarot-card-meanings) [Kaggle](https://www.kaggle.com/datasets/tarotoo/tarotoo-tarot-card-meanings), [npm](https://www.npmjs.com/package/tarotoo-tarot), and [PyPI](https://pypi.org/project/tarotoo-tarot/). Interpretations are grounded in A. E. Waite's _The Pictorial Key to the Tarot_ (1911, public domain), written in Tarotoo's editorial voice.
 
 ## License
 
-Code: [MIT](LICENSE). Dataset: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), attribution to Tarotoo (tarotoo.com).
+Code and dataset: [MIT](LICENSE). Attribution to Tarotoo (tarotoo.com) is appreciated.
 
 ## For entertainment and self-reflection purposes
 
