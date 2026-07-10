@@ -81,7 +81,7 @@ node server.js  # stdio transport
 
 ## Dataset
 
-The embedded `data/cards.json` is built from [tarotoo-tarot-dataset](https://github.com/Tarotoo-com/tarotoo-tarot-dataset) ([MIT](https://github.com/Tarotoo-com/tarotoo-tarot-dataset/blob/main/LICENSE)), which is also available on [Hugging Face](https://huggingface.co/datasets/Tarotoo/tarotoo-tarot-card-meanings), [Kaggle](https://www.kaggle.com/datasets/tarotoo/tarotoo-tarot-card-meanings), [npm](https://www.npmjs.com/package/tarotoo-tarot), and [PyPI](https://pypi.org/project/tarotoo-tarot/), with a citable DOI: [10.5281/zenodo.21268290](https://doi.org/10.5281/zenodo.21268290).
+The embedded `data/cards.json` is built from [tarotoo-tarot-dataset](https://github.com/Tarotoo-com/tarotoo-tarot-dataset) ([MIT](https://github.com/Tarotoo-com/tarotoo-tarot-dataset/blob/main/LICENSE)), which is also available on [Hugging Face](https://huggingface.co/datasets/Tarotoo/tarotoo-tarot-card-meanings), [Kaggle](https://www.kaggle.com/datasets/tarotoo/tarotoo-tarot-card-meanings), [npm](https://www.npmjs.com/package/tarotoo-tarot), and [PyPI](https://pypi.org/project/tarotoo-tarot/), with a citable DOI ([10.5281/zenodo.21268290](https://doi.org/10.5281/zenodo.21268290)) and an accompanying [dataset paper](https://doi.org/10.5281/zenodo.21285778).
 
 Interpretations were created by Tarotoo within the Rider–Waite–Smith tradition, drawing on established public-domain sources (A. E. Waite's *The Pictorial Key to the Tarot*, 1911; attributions per the Golden Dawn's *Book T*).
 
