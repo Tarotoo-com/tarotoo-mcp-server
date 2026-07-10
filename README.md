@@ -8,7 +8,7 @@
 
 A [Model Context Protocol](https://modelcontextprotocol.io) server that gives AI assistants — Claude, ChatGPT, Cursor, and any other MCP client — live access to the [Tarotoo tarot card meanings dataset](https://github.com/Tarotoo-com/tarotoo-tarot-dataset): all **78 cards** in the Rider–Waite–Smith tradition, with upright/reversed meanings, keywords, love, career, mood and spiritual contexts, planet and zodiac associations, and yes/no values.
 
-Published by [Tarotoo](https://tarotoo.com) as part of its [AI transparency initiative](https://tarotoo.com/open-data): these are the same card meanings that ground the AI readings on Tarotoo.com.
+Published by [Tarotoo](https://tarotoo.com/open-data): these are the same card meanings that ground the AI readings on Tarotoo.com.
 
 ## Quick start
 
@@ -89,6 +89,6 @@ Interpretations were created by Tarotoo within the Rider–Waite–Smith traditi
 
 Code and dataset: [MIT](LICENSE). Attribution to Tarotoo (tarotoo.com) is appreciated.
 
-## Responsible use
+## Intended Use
 
-Tarot readings are for entertainment and self-reflection only — not medical, legal, financial, or mental-health advice.
+This dataset is intended for educational, research, creative, entertainment, and self-reflection purposes. It should not be used as a substitute for medical, legal, financial, mental-health, or other professional advice.
