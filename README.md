@@ -1,4 +1,4 @@
-# Tarotoo MCP Server
+# Tarotoo Tarot MCP Server
 
 [![npm](https://img.shields.io/npm/v/tarotoo-mcp-server)](https://www.npmjs.com/package/tarotoo-mcp-server)
 [![CI](https://github.com/Tarotoo-com/tarotoo-mcp-server/actions/workflows/test.yml/badge.svg)](https://github.com/Tarotoo-com/tarotoo-mcp-server/actions)
