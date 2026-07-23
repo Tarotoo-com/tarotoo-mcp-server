@@ -44,7 +44,7 @@ Then ask your assistant things like *"what does the Three of Swords mean for my 
 
 | Tool | Arguments | Returns |
 |---|---|---|
-| `get_card_meaning` | `name` (string) | Full record for one card — meanings, keywords, love/career/mood/spiritual, planet, zodiac, yes/no, URL. Name matching is forgiving (`"fool"` → The Fool) |
+| `get_card_meaning` | `name` (string) | Full record for one card — meanings, keywords, love/career/mood/spiritual (upright and reversed), planet, zodiac, yes/no.  Name matching is forgiving (`"fool"` → The Fool) |
 | `list_cards` | `arcana?` (`major`/`minor`), `suit?` (`wands`/`cups`/`swords`/`pentacles`) | Card names, optionally filtered |
 | `search_cards` | `query` (string), `limit?` (1–78, default 10) | Cards matching a theme or keyword, best match first — e.g. `"heartbreak"` → Three of Swords |
 | `yes_no_answer` | `name` (string) | The card's `yes`/`no`/`maybe` value with its upright meaning as justification |
