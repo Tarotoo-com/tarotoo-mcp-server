@@ -8,12 +8,12 @@
     "url": "https://github.com/Tarotoo-com/tarotoo-mcp-server",
     "source": "github"
   },
-  "version": "1.7.1",
+  "version": "2.0.0",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "tarotoo-mcp-server",
-      "version": "1.7.1",
+      "version": "2.0.0",
       "transport": {
         "type": "stdio"
       }

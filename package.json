@@ -1,6 +1,6 @@
 {
   "name": "tarotoo-mcp-server",
-  "version": "1.7.1",
+  "version": "2.0.0",
   "description": "MCP server exposing the Tarotoo tarot card meanings dataset (78 cards, Rider-Waite-Smith) to AI assistants",
   "type": "module",
   "bin": {

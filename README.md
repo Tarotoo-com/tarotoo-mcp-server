@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21298383.svg)](https://doi.org/10.5281/zenodo.21298383)
 
-A [Model Context Protocol](https://modelcontextprotocol.io) server that gives AI assistants — Claude, ChatGPT, Cursor, and any other MCP client — live access to the [Tarotoo tarot card meanings dataset](https://github.com/Tarotoo-com/tarotoo-tarot-dataset): all **78 cards** in the Rider–Waite–Smith tradition, with upright/reversed meanings, keywords, love, career, mood and spiritual contexts, planet and zodiac associations, and yes/no values.
+A [Model Context Protocol](https://modelcontextprotocol.io) server that gives AI assistants — Claude, ChatGPT, Cursor, and any other MCP client — live access to the [Tarotoo tarot card meanings dataset](https://github.com/Tarotoo-com/tarotoo-tarot-dataset): all **78 cards** in the Rider–Waite–Smith tradition, with upright and reversed meanings and keywords, upright and reversed love, career, mood and spiritual contexts, planet and zodiac associations, and upright and reversed yes/no values.
 
 Published by [Tarotoo](https://tarotoo.com/open-data): these are the same card meanings that ground the AI readings on Tarotoo.com.
 
@@ -64,11 +64,15 @@ tools/call get_card_meaning {"name": "the star"}
   "planet": "Saturn",
   "zodiac": "Aquarius",
   "yes_no": "yes",
+  "yes_no_reversed": "no",
   "keywords_upright": ["hope", "renewal", "healing", "inspiration", "faith"],
-  "meaning_upright": "Hope, renewal, healing, inspiration, and faith.",
-  "url": "https://tarotoo.com/tarot-card-meanings/the-star"
+  "meaning_upright": "Hope, renewal, healing, inspiration, faith.",
+  "love": "hope in love, emotional healing, renewed trust, an inspiring connection",
+  "love_reversed": "lost faith, discouragement, disconnection, dimmed hope"
 }
 ```
+
+Each card carries both upright and reversed values for keywords, meaning, love, career, mood, spiritual, and yes/no. The example above is abbreviated.
 
 ## Run from source
 

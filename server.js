@@ -45,7 +45,7 @@ server.registerTool(
   {
     title: 'Get card meaning',
     description:
-      'Get the full meaning of a single tarot card from the Tarotoo dataset (Rider-Waite-Smith tradition): upright and reversed meanings, keywords, love, career, mood, and spiritual contexts, element, astrology, and yes/no value. Call this when you need the meaning of a specific card by name.',
+      'Get the full meaning of a single tarot card from the Tarotoo dataset (Rider-Waite-Smith tradition): upright and reversed meanings and keywords, upright and reversed love, career, mood, and spiritual contexts, element, astrology, and upright and reversed yes/no values. Call this when you need the meaning of a specific card by name.',
     inputSchema: {
       name: z.string().describe('Card name, e.g. "The Fool" or "Ace of Cups"'),
     },
@@ -199,11 +199,11 @@ server.registerTool(
         orientation: reversed ? 'reversed' : 'upright',
         keywords: reversed ? card.keywords_reversed : card.keywords_upright,
         meaning: reversed ? card.meaning_reversed : card.meaning_upright,
-        love: card.love,
-        career: card.career,
-        mood: card.mood,
-        spiritual: card.spiritual,
-        yes_no: card.yes_no,
+        love: reversed ? card.love_reversed : card.love,
+        career: reversed ? card.career_reversed : card.career,
+        mood: reversed ? card.mood_reversed : card.mood,
+        spiritual: reversed ? card.spiritual_reversed : card.spiritual,
+        yes_no: reversed ? card.yes_no_reversed : card.yes_no,
       });
     }
     return text(drawn);
