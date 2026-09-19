@@ -10,6 +10,8 @@ const here = dirname(fileURLToPath(import.meta.url));
 const cards = JSON.parse(
   readFileSync(join(here, 'data', 'cards.json'), 'utf8'),
 );
+// package.json is the single source of truth for the version reported to clients.
+const { version } = JSON.parse(readFileSync(join(here, 'package.json'), 'utf8'));
 const byName = new Map(cards.map((c) => [c.name.toLowerCase(), c]));
 
 function findCard(name) {
@@ -38,7 +40,7 @@ function errorText(message) {
   return { content: [{ type: 'text', text: message }], isError: true };
 }
 
-const server = new McpServer({ name: 'tarotoo-tarot', version: '1.7.0' });
+const server = new McpServer({ name: 'tarotoo-tarot', version });
 
 server.registerTool(
   'get_card_meaning',
