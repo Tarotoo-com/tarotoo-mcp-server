@@ -86,7 +86,21 @@ node server.js  # stdio transport
 
 ## Dataset
 
-The embedded `data/cards.json` is built from [tarotoo-tarot-dataset](https://github.com/Tarotoo-com/tarotoo-tarot-dataset) ([MIT](https://github.com/Tarotoo-com/tarotoo-tarot-dataset/blob/main/LICENSE)), which is also available on [Hugging Face](https://huggingface.co/datasets/Tarotoo/tarotoo-tarot-card-meanings), [Kaggle](https://www.kaggle.com/datasets/tarotoo/tarotoo-tarot-card-meanings), [npm](https://www.npmjs.com/package/tarotoo-tarot), and [PyPI](https://pypi.org/project/tarotoo-tarot/), with citable DOIs: [10.5281/zenodo.21285777](https://doi.org/10.5281/zenodo.21285777) (dataset + dataset paper; concept DOI, always latest) and [10.5281/zenodo.21268290](https://doi.org/10.5281/zenodo.21268290) (full repository/archive: dataset, source files, build scripts, automated validation, software packages, documentation; concept DOI, always latest).
+The embedded `data/cards.json` is built from [tarotoo-tarot-dataset](https://github.com/Tarotoo-com/tarotoo-tarot-dataset) ([MIT](https://github.com/Tarotoo-com/tarotoo-tarot-dataset/blob/main/LICENSE)). The same data is published in several places:
+
+| Resource | Link |
+| --- | --- |
+| Dataset source and docs | [Tarotoo-com/tarotoo-tarot-dataset](https://github.com/Tarotoo-com/tarotoo-tarot-dataset) |
+| Dataset homepage | [tarotoo.com/open-data](https://tarotoo.com/open-data) |
+| Hugging Face | [Tarotoo/tarotoo-tarot-card-meanings](https://huggingface.co/datasets/Tarotoo/tarotoo-tarot-card-meanings) |
+| Kaggle | [tarotoo/tarotoo-tarot-card-meanings](https://www.kaggle.com/datasets/tarotoo/tarotoo-tarot-card-meanings) |
+| npm package | [`tarotoo-tarot`](https://www.npmjs.com/package/tarotoo-tarot) |
+| PyPI package | [`tarotoo-tarot`](https://pypi.org/project/tarotoo-tarot/) |
+| Citable DOI, dataset and paper | [10.5281/zenodo.21285777](https://doi.org/10.5281/zenodo.21285777) |
+| Citable DOI, whole repository | [10.5281/zenodo.21268290](https://doi.org/10.5281/zenodo.21268290) |
+| This server's own DOI | [10.5281/zenodo.21298382](https://doi.org/10.5281/zenodo.21298382) |
+
+Both dataset DOIs are concept DOIs and always resolve to the newest version.
 
 Interpretations were created by Tarotoo within the Rider–Waite–Smith tradition, drawing on established sources (A. E. Waite's *The Pictorial Key to the Tarot*, 1911; attributions per the Golden Dawn's *Book T*).
 
